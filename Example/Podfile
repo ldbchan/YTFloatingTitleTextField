@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YTFloatingTitleTextField_Example' do
+  pod 'YTFloatingTitleTextField', :path => '../'
+
+  target 'YTFloatingTitleTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

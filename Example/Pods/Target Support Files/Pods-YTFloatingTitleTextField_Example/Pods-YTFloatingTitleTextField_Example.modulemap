@@ -1,0 +1,6 @@
+framework module Pods_YTFloatingTitleTextField_Example {
+  umbrella header "Pods-YTFloatingTitleTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
