@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ldbchan/YTFloatingTitleTextField'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ldbchan' => 'ldb.chan@gmail.com' }
-  s.source           = { :git => 'https://github.com/ldbchan/YTFloatingTitleTextField.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ldbchan/YTFloatingTitleTextField.git', :tag => "v#{s.version}" }
   s.ios.deployment_target = '8.0'
   s.source_files = 'YTFloatingTitleTextField/Classes/**/*'
 end
