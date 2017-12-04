@@ -131,7 +131,7 @@ typedef NS_ENUM(NSUInteger, HintLabelMode) {
 
     _normalTextFont = self.font;
     _normalTextColor = self.textColor;
-    _normalLineColor = self.textColor;
+    _normalLineColor = self.tintColor;
 
     _errorTextFont = self.font;
     _errorTextColor = [UIColor redColor];
