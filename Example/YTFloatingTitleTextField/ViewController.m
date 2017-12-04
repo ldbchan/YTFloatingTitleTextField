@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <YTFloatingTitleTextField/YTFloatingTitleTextField.h>
 
 @interface ViewController ()
 
@@ -18,6 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    YTFloatingTitleTextField *textField = [[YTFloatingTitleTextField alloc] initWithFrame:CGRectMake(40, 150, 200, 60)];
+    textField.title = @"Name";
+    textField.placeholder = @"What's your name?";
+    textField.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:textField];
 }
 
 @end
