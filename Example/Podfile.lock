@@ -1,5 +1,5 @@
 PODS:
-  - YTFloatingTitleTextField (0.1.0)
+  - YTFloatingTitleTextField (0.1.1)
 
 DEPENDENCIES:
   - YTFloatingTitleTextField (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YTFloatingTitleTextField: 5bb8dc5c4846d44d4bb36e273c02fabdacc061ef
+  YTFloatingTitleTextField: 348e32fbaf990538baa93f5adccc26b16fc2f8be
 
 PODFILE CHECKSUM: 07cd3b2d6ae539fe9f01c4eca8d5f5a1f78b6009
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.3

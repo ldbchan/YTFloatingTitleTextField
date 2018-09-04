@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YTFloatingTitleTextField'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A UITextField subclass with floating title and bottom line.'
   s.homepage         = 'https://github.com/ldbchan/YTFloatingTitleTextField'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
